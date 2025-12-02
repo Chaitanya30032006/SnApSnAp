@@ -1,9 +1,9 @@
 // --- Sound Effects ---
-const startSound = new Audio('C:/Users/chait/Downloads/car-engine.mp3'); // local engine start cue
+const startSound = new Audio('assets/car-engine.mp3'); // local engine start cue
 const applePopSound = new Audio('https://cdn.pixabay.com/audio/2022/02/01/audio_2e42b0459c.mp3'); // crisp pop
 const gameplayMusic = new Audio('https://cdn.pixabay.com/audio/2022/03/16/audio_0581da0b8b.mp3'); // gentle loop
-const endSound = new Audio('C:/Users/chait/Downloads/end.mp3'); // local loss cue
-const speedShiftSound = new Audio('C:/Users/chait/Downloads/transition-fleeting-121419.mp3'); // level shift cue
+const endSound = new Audio('assets/end.mp3'); // local loss cue
+const speedShiftSound = new Audio('assets/transition-fleeting-121419.mp3'); // level shift cue
 const gameOverSound = new Audio('https://cdn.pixabay.com/audio/2022/07/26/audio_124bfa4c3e.mp3'); // can use same or different
 const clickSound = new Audio('https://cdn.pixabay.com/audio/2021/08/04/audio_7b3e1c1c9a.mp3'); // click
 
