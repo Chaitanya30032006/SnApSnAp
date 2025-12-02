@@ -8,12 +8,12 @@ const gameOverSound = new Audio('https://cdn.pixabay.com/audio/2022/07/26/audio_
 const clickSound = new Audio('https://cdn.pixabay.com/audio/2021/08/04/audio_7b3e1c1c9a.mp3'); // click
 
 // Tune volumes
-startSound.volume = 0.65;
-applePopSound.volume = 0.6;
-gameplayMusic.volume = 0.45;
+startSound.volume = 1.0;
+applePopSound.volume = 1.0;
+gameplayMusic.volume = 1.0;
 gameplayMusic.loop = true;
-endSound.volume = 0.7;
-speedShiftSound.volume = 0.75;
+endSound.volume = 1.0;
+speedShiftSound.volume = 1.0;
 speedShiftSound.preload = 'auto';
 try { speedShiftSound.load(); } catch (e) {}
 gameOverSound.volume = 0.85;
